@@ -12,6 +12,7 @@
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
     "start:all": "nx run-many --all --target=serve --parallel",
+    "test:all": "nx run-many --all --target=test --parallel",
     "affected:apps": "nx affected:apps",
     "affected:libs": "nx affected:libs",
     "affected:build": "nx affected:build",
