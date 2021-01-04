@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@aurum/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@aurum/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@aurum/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
